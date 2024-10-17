@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>COVID-19 API</h1>
+        <div class="search-bar">
+            <input type="text" id="country" placeholder="Enter Country Name" class="search-input">
+            <input type="text" id="city" placeholder="Enter City Name" class="search-input">
+            <button id="submit" class="search-btn">Get Data</button>
+        </div>
+        <div class="data-container">
+            <h2 id="country-name"></h2>
+            <h2 id="city-name"></h2>
+            <div class="data">
+                <p id="cases"></p>
+                <p id="active"></p>
+                <p id="recovered"></p>
+                <p id="deaths"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
